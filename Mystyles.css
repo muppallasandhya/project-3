@@ -1,0 +1,46 @@
+/*CSS for styling the navigation */
+body ,h1,h2,h3,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header{
+    background-color: aqua;
+    color: rgb(94, 6, 116);
+    padding: 10px;
+}
+
+
+nav{
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    padding: 20px;
+}
+footer{
+    background-color: brown;
+    color: rgb(228, 18, 29);
+    text-align: center;
+    padding: 10px 0;
+}
